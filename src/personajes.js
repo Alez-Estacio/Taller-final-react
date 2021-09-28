@@ -1,5 +1,10 @@
 import Listarpersonajes from "./listapersonajes";
-
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 
 const students = [
     {
@@ -132,22 +137,22 @@ const students = [
   
   const Personajes = () => (
     <>
+    
         <ul class="nav nav-pills">
   <li class="nav-item">
-    <a class="nav-link active" aria-current="page" href="#">Inicio </a>
+  <a class="btn btn-primary btn-lg" href="Personajes"><strong>Inicio</strong></a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#">Carriles </a>
+  <a class="btn btn-primary btn-lg" href="Formulario"><strong>Formulario</strong></a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#">Historia </a>
+  <a class="btn btn-primary btn-lg" href="Footer"><strong>Footer</strong></a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#">Menu </a>
+  <a class="btn btn-primary btn-lg" href="Historia"><strong>Historia</strong></a>
   </li>
-  <li class="nav-item">
-    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-  </li>
+  
+  
 </ul>
     {
         students.map( c => <Listarpersonajes name={c.name}   tipo={c.Tipo} describe ={c.Describe} img={c.img} /> )

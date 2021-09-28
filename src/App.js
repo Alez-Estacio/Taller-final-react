@@ -13,6 +13,7 @@ import Footer from './Footer';
 import Formulario from './Formulario';
 import Listarpersonajes from './listapersonajes';
 import Personajes from './personajes';
+import Historia from './Historia';
 
 
 
@@ -28,15 +29,27 @@ class  App extends Component {
   
     
   <Route path="/"  exact component >
+    
+  
    <Personajes/>
+  
   </Route>
   <Route path="/Footer"  exact component >
     <Footer/>
   </Route>
   <Route path="/Formulario"  exact component >
     <Formulario/>
+    
    
   </Route>
+  <Route path="/Historia"  exact component >
+    <Historia/>
+    
+   
+  </Route>
+  
+   
+  
   
   </Switch>
     
