@@ -11,7 +11,24 @@ class Formulario  extends  Component{
             
         
         return(
-           
+          <>
+                <ul class="nav nav-pills">
+  <li class="nav-item">
+  <a class="btn btn-primary btn-lg" href="/"><strong>Inicio</strong></a>
+  </li>
+  <li class="nav-item">
+  <a class="btn btn-primary btn-lg" href="Formulario"><strong>Formulario</strong></a>
+  </li>
+  <li class="nav-item">
+  <a class="btn btn-primary btn-lg" href="Footer"><strong>Footer</strong></a>
+  </li>
+  <li class="nav-item">
+  <a class="btn btn-primary btn-lg" href="Historia"><strong>Historia</strong></a>
+  </li>
+  
+  
+</ul>
+
             <div className="formulario">
             <div class="login-page">
             <div class="form">
@@ -24,14 +41,16 @@ class Formulario  extends  Component{
                 <p class="message">Already registered? <a href="#">Sign In</a></p>
               </form>
               <form class="login-form">
-                <input type="text" placeholder="username"/>
-                <input type="password" placeholder="password"/>
-                <button>login</button>
-                <p class="message">Not registered? <a href="#">Create an account</a></p>
+                <input type="text" placeholder="Name"/>
+                <input type="text" placeholder="Last name "/>
+                <input type="Gmail" placeholder="Email "/>
+                <button>Contactar</button>
+                <p class="message"> Leer terminos y condiciones  <a href="#">Leer</a></p>
               </form>
             </div>
           </div>
           </div>
+          </>
         )
     }
 

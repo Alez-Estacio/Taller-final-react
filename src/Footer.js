@@ -4,6 +4,23 @@ import { Component } from "react";
 class Footer  extends  Component{
     render(){
         return(
+            <>
+                        <ul class="nav nav-pills">
+  <li class="nav-item">
+  <a class="btn btn-primary btn-lg" href="/"><strong>Inicio</strong></a>
+  </li>
+  <li class="nav-item">
+  <a class="btn btn-primary btn-lg" href="Formulario"><strong>Formulario</strong></a>
+  </li>
+  <li class="nav-item">
+  <a class="btn btn-primary btn-lg" href="Footer"><strong>Footer</strong></a>
+  </li>
+  <li class="nav-item">
+  <a class="btn btn-primary btn-lg" href="Historia"><strong>Historia</strong></a>
+  </li>
+  
+  
+</ul>
             <footer>
       
     
@@ -23,6 +40,8 @@ class Footer  extends  Component{
      </figcaption>
    </figure>
    </footer>
+   </>
+   
         )
     }
 

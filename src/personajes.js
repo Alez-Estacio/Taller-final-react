@@ -140,7 +140,7 @@ const students = [
     
         <ul class="nav nav-pills">
   <li class="nav-item">
-  <a class="btn btn-primary btn-lg" href="Personajes"><strong>Inicio</strong></a>
+  <a class="btn btn-primary btn-lg" href="/"><strong>Inicio</strong></a>
   </li>
   <li class="nav-item">
   <a class="btn btn-primary btn-lg" href="Formulario"><strong>Formulario</strong></a>
